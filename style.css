@@ -1,0 +1,45 @@
+.t-shirt-image {
+  width: 300px;
+  background-image: linear-gradient(180deg, rgb(0, 255, 13) , rgb(137, 231, 145), rgb(216, 245, 224));
+}
+
+.sales {
+  position: absolute;
+  right: 0;
+  top: -8px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-weight: 700;
+}
+
+.t-shirt {
+  position: relative;
+}
+
+.t-shirt-container {
+  display: inline-block;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: rgba(3, 56, 27, 0.3);
+  position: absolute;
+  top: 208px;
+}
+
+button {
+  background-color: rgb(3, 78, 0);
+  border: none;
+  color: white;
+  width: 90px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 15px;
+}
